@@ -63,7 +63,7 @@
   flex-wrap: wrap;
   justify-content: center;
   background-color: #ffffff;
-  background-image: url('img/abstract-digital-grid-black-background_53876-97647.avif')
+  background-image: url('background.avif')
 
 }
 .button1{
@@ -196,10 +196,8 @@ footer{
   color: rgb(167, 167, 255);
 }
 
-
-
 .Disguise-body{
-  background-image: url('img/abstract-digital-grid-black-background_53876-97647.avif');
+  background-image: url('background.avif');
 }
 .container-disguiser {
   max-width: 600px;
@@ -209,7 +207,7 @@ footer{
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  background-image: url("img/abstract-digital-grid-black-background_53876-97647.avif");
+  background-image: url("background.avif");
   color: #ccc;
   border: 3px solid;
   cursor: pointer;
@@ -334,7 +332,7 @@ h1 {
 
 
 .expose-body{
-  background-image: url('img/abstract-digital-grid-black-background_53876-97647.avif');
+  background-image: url('background.avif');
 }
 
 
@@ -346,7 +344,7 @@ h1 {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  background-image: url("img/abstract-digital-grid-black-background_53876-97647.avif");
+  background-image: url("background.avif");
   color: #ccc;
   border: 3px solid;
   cursor: pointer;
