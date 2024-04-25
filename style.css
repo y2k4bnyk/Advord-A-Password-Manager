@@ -1,0 +1,785 @@
+.index-body{
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+}
+.navbar {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+}
+
+.navbar-brand {
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff; 
+  font-size: 24px; 
+  padding: 15px 20px;
+  display: inline-block;
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+  color: #fff; 
+}
+
+.navbar-nav {
+  float: right;
+  margin-right: 20px; 
+}
+
+
+#advord{
+    font-size: 30px;
+    font-weight: 1000;
+    padding-left: 5px;
+    text-overflow: ellipsis;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to right, #830707, #140c9b);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+.pass1{
+    font-size: 30px;
+    font-weight: 650;
+    padding-left: 5px;
+    text-overflow: ellipsis;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #63d3ff, #04faa4);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    margin-top: 10px;
+    margin-right: 19%;
+}
+.hero{
+  margin-top: 4%;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #ffffff;
+  background-image: url('img/abstract-digital-grid-black-background_53876-97647.avif')
+
+}
+.button1{
+    width: 33.2%;
+    margin: 20px;
+    height: 200px;
+    background-color: #dee0e0;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s, box-shadow 0.3s;
+    border: none;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.button1:hover{
+    text-decoration: none;
+    transform: scale(1.04); 
+    box-shadow: 0 0 10px rgba(0, 225, 255, 1.19);;
+    background-color:rgba(0, 225, 255, 0.19);
+    color: rgb(145, 234, 233);
+}
+
+
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  footer .col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  padding-right: 200px;
+
+  }
+  footer h4{
+    font-size: 13px;
+    padding-bottom: 20px;
+    margin: 0 0 8px 0;
+
+  }
+  footer a{
+    font-size: 13px;
+    text-decoration: none;
+    column-rule: #222;
+    margin-bottom: 10px;
+  }
+  footer .follow{
+    margin:20px;
+  }
+  footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+  }
+  footer .follow i:hover,
+  footer a:hover{
+    text-decoration: none;
+    color: #088178;
+  }
+  footer .copyright{
+    width: 100%;
+    text-align: center;
+  }
+.section-p1{
+    background-color: #c0caca;
+}
+
+.copy-btn {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: all 0.9s ease; 
+}
+
+.copy-btn:hover {
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid wheat;
+}
+
+.tags {
+
+  margin-top: 20px;
+  text-align: center;
+}
+
+.tag-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.tag-list li {
+  text-decoration: none;
+  margin: 0 12px;
+  font-family: Arial, sans-serif;
+}
+
+.tag-list li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.18s ease-in;
+}
+
+.tag-list li a:hover {
+  text-decoration: none;
+  color: rgb(167, 167, 255);
+
+}
+.tag-list li.active a {
+  text-decoration: none;
+  color: rgb(167, 167, 255);
+}
+
+
+
+.Disguise-body{
+  background-image: url('img/abstract-digital-grid-black-background_53876-97647.avif');
+}
+.container-disguiser {
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 20px;
+  margin-top: 79px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-image: url("img/abstract-digital-grid-black-background_53876-97647.avif");
+  color: #ccc;
+  border: 3px solid;
+  cursor: pointer;
+}
+
+.container-disguiser:hover {
+  text-decoration: none;
+  box-shadow: 0 10px 10px 2px rgb(0, 255, 247);
+  transition: box-shadow 0.3s ease; 
+}
+
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+.input-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+
+}
+.input-group input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+.disguise-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #170000;
+  background-color: #5af3f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s ease;
+
+}
+.disguise-btn:hover {
+  text-decoration: none;
+  background-color: #65c6e7;
+}
+.output {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #170000;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: auto;
+  color: rgb(255, 255, 255);
+}
+#instruction-disguiser{
+  color: rgb(255, 255, 255);
+  background: transparent;
+  border: 2px solid white;
+  margin-left: 60%;
+  transition: background-color 0.3s, color 0.3s;
+}
+#instruction-disguiser:hover{
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+.instructions {
+  display: none;
+}
+#shareButton {
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border: 1px solid white;
+  padding: 5px 5px;
+  margin-left: 5px;
+  margin-top: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#shareButton:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+.copy-btn {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.copy-btn:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.expose-body{
+  background-image: url('img/abstract-digital-grid-black-background_53876-97647.avif');
+}
+
+
+.container-exposer {
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 20px;
+  margin-top: 79px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-image: url("img/abstract-digital-grid-black-background_53876-97647.avif");
+  color: #ccc;
+  border: 3px solid;
+  cursor: pointer;
+  height: auto;
+}
+.container-exposer:hover{
+  text-decoration: none;
+  box-shadow: 0 10px 10px 2px rgb(0, 255, 247);
+  transition: box-shadow 0.3s ease; 
+}
+
+.input-exposer{
+  height: 60px;
+}
+.heading-exposer {
+  text-align: center;
+  color: #ffffff;
+}
+
+.input-group-exposer {
+  margin-bottom: 20px;
+}
+
+.label-exposer {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-exposer {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-exposer {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #170000;
+  background-color: #5af3f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.btn-exposer:hover {
+  text-decoration: none;
+  background-color: #0f939c;
+}
+
+.output-exposer {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  white-space: pre-wrap;
+}
+
+
+
+/* Encoder */
+
+
+.container-encoder {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.heading-encoder {
+  text-align: center;
+  color: #333;
+}
+
+.input-group-encoder {
+  margin-bottom: 20px;
+}
+
+.label-encoder {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-encoder {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-encoder {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-encoder:hover {
+  text-decoration: none;
+  background-color: #0056b3;
+}
+
+.output-encoder {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  white-space: pre-wrap;
+}
+.btn-encoder {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #170000;
+  background-color: #5af3f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s ease;
+
+}
+.btn-encoder:hover {
+  text-decoration: none;
+  background-color: #65c6e7;
+}
+
+
+
+/* decoder */
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.btn{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #170000;
+  background-color: #5af3f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s ease;
+
+}
+.btn:hover{
+  text-decoration: none;
+  background-color: #65c6e7;
+}
+
+
+/* 
+password generator */
+
+
+
+.container {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input[type="number"],
+.checkbox {
+    margin-right: 5px;
+}
+
+/* 
+strength checker */
+#instruction_disguiser{
+  color: rgb(255, 255, 255);
+  background: transparent;
+  border: 2px solid white;
+  margin-left: 1px;
+  margin-top: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+#instruction_disguiser:hover{
+  text-decoration: none;
+  background-color: white;
+  color: rgb(0, 0, 0);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+  .hero{
+    margin-top: 150px;
+  }
+  footer.section-p1{
+    display: flex;
+    
+  }
+  footer .col {
+
+    margin-bottom: 20px;
+    /* padding-right: 200px; */
+}
+  .section-p1{
+    display:flex;
+
+  }
+.container-disguiser {
+  max-width: calc(100% - 40px); 
+  margin-top: 180px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #ccc;
+  border: 3px solid;
+  cursor: pointer;
+}
+#instruction-disguiser{
+  display: inline;
+}
+.tags {
+  margin-top: 20px;
+  text-align: center;
+  transition: all 0.2s ease-in;
+  padding: 2px;
+}
+.tags:hover{
+  text-decoration: none;
+  border: 1px solid white;
+
+}
+.tag-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.tag-list li {
+  margin: 0 5px;
+  font-family: Arial, sans-serif;
+}
+
+.tag-list li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 10px;
+  transition: all 0.18s ease-in;
+}
+
+.tag-list li a:hover {
+  text-decoration: none;
+  color: rgb(167, 167, 255);
+  text-decoration: none;
+  
+}
+.tag-list li.active a {
+  text-decoration: none;
+  color: rgb(167, 167, 255);
+}
+}
+
+/* Add this CSS at the end of your existing CSS */
+
+/* Navbar adjustments for mobile devices */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  
+  .navbar-brand {
+    margin-bottom: 10px;
+  }
+
+  .navbar-nav {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  .tag-list li {
+    margin: 0 5px;
+    font-size: 12px;
+  }
+  .container-exposer{
+    margin-top: 190px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .tag-list li.active a {
+    text-decoration: none;
+    color: #20b0e8; /* Change the color of active link */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #instruction-disguiser {
+    margin-left: 0; 
+  }
+}

@@ -1,0 +1,57 @@
+<!-- <div id="contentToCopy">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Nullam vel nisl ut nisi commodo consectetur. 
+    Fusce vel magna urna. Donec viverra libero sed quam bibendum, id condimentum justo interdum.
+</div>
+<button id="copyButton">Copy</button>
+
+<script>
+document.getElementById("copyButton").addEventListener("click", function() {
+    var content = document.getElementById("contentToCopy").textContent;
+    var textarea = document.createElement("textarea");
+    textarea.value = content;
+    document.body.appendChild(textarea);
+    textarea.select();
+    try {
+        document.execCommand("copy");
+        alert("Text copied to clipboard!");
+    } catch (err) {
+        console.error("Failed to copy text:", err);
+    } finally {
+        document.body.removeChild(textarea);
+    }
+});
+</script> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="content">
+    <p>This is the text paragraph that you want to share.</p>
+    <button id="shareButton">Share</button>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const shareButton = document.getElementById('shareButton');
+        const textToShare = document.querySelector('.content p').innerText;
+
+        shareButton.addEventListener('click', async () => {
+            try {
+                await navigator.share({ text: textToShare });
+                console.log('Content shared successfully');
+            } catch (error) {
+                console.error('Error sharing content:', error);
+                alert('Sharing failed. Please try again.');
+            }
+        });
+    });
+</script>
+</body>
+</html>
